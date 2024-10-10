@@ -8,8 +8,8 @@ html
     width:100%;
     height:10%;
     background-color:blueviolet;
-    border-color:darkorchid;
-    border-width:10px;
+    border-color:rgb(107, 16, 152);
+    border-width:5px;
     border-style:inset;
 }
 a
@@ -31,7 +31,7 @@ a
 }
 .buttonhome:hover, .buttonbio:hover, .buttonprojects:hover, .buttonsocials:hover, .buttonetc:hover
 {
-background-color:greenyellow;
+background-color:rgb(25, 34, 11);
 border-color:olivedrab;
 }
 .buttonhome, .buttonprojects, .buttonetc
@@ -41,4 +41,11 @@ border-color:olivedrab;
 .buttonbio, .buttonsocials
 {
     height:8%;
+}
+
+#siteinfo
+{
+    width:100%;
+    float:left;
+    
 }
