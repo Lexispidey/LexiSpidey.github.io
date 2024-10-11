@@ -1,7 +1,9 @@
-html
+html, body
 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:blue;
+    margin:0px;
+    padding:0px;
 }
 #TopHeader
 {
@@ -46,4 +48,41 @@ html
 #ProjectName, #ProjectDesc
 {
     
+}
+a
+{
+    text-decoration:none;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.buttonhome, .buttonbio, .buttonprojects, .buttonsocials, .buttonetc
+{
+    background-color:green;
+    width:20%;
+    float:left;
+    cursor: pointer;
+    text-align:center;
+    border-color:darkgreen;
+    border-width:3px;
+    border-style:solid;
+    margin:0px;
+    padding:0px;
+    
+}
+.buttonhome:hover, .buttonbio:hover, .buttonprojects:hover, .buttonsocials:hover, .buttonetc:hover
+{
+background-color:rgb(25, 34, 11);
+border-color:olivedrab;
+}
+.buttonhome, .buttonprojects, .buttonetc
+{
+
+}
+.buttonbio, .buttonsocials
+{
+    height:fit-content;
+}
+#Articles
+{
+    margin:auto;
 }
