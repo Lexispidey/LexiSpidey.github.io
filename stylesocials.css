@@ -1,54 +1,21 @@
 html, body
 {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color:rgb(0, 0, 48);
+    background-color:rgb(143, 143, 143);
     margin:0px;
     padding:0px;
 }
 #TopHeader
 {
-    background-color:rgb(6, 6, 117);
-    text-align:center;
     width:100%;
     height:auto;
+    background-color:rgb(170, 170, 170);
+    border-color:rgb(62, 62, 62);
     border-width:5px;
-    border-color:rgb(172, 22, 213);
     border-style:inset;
-    color:white;
-    
-}
-#LeftArticle, #MidArticle, #RightArticle
-{
-    width:30%;
-    height:80%;
-    float:left;
-    margin:4px;
-    text-align:center;
-    border-width:2px;
-    border-color:rgb(172, 22, 213);
-    border-style:inset;
-}
-#LeftArticle:hover, #MidArticle:hover, #RightArticle:hover
-{
-    border-width:2px;
-    border-color:rgb(197, 40, 241);
-    border-style:inset;
-}
-#LeftArticle
-{
-    background-color:rgb(28, 28, 206);
-}
-#MidArticle
-{
-    background-color:rgb(98, 20, 200);
-}
-#RightArticle
-{
-    background-color:rgb(174, 7, 192);
-}
-#ProjectName, #ProjectDesc
-{
-    
+    margin:0px;
+    padding:0px;
+    text-align: right;
 }
 a
 {
@@ -58,12 +25,12 @@ a
 }
 .buttonhome, .buttonbio, .buttonprojects, .buttonsocials, .buttonetc
 {
-    background-color:green;
+    background-color:rgb(112, 112, 112);
     width:20%;
     float:left;
     cursor: pointer;
     text-align:center;
-    border-color:darkgreen;
+    border-color:rgb(61, 61, 61);
     border-width:3px;
     border-style:solid;
     margin:0px;
@@ -83,7 +50,9 @@ border-color:olivedrab;
 {
     height:fit-content;
 }
-#Articles
+#siteinfo
 {
-    margin:auto;
+    width:100%;
+    float:left;
+    
 }
