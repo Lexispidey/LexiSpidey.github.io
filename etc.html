@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Jocke</title>
+        <link rel="stylesheet" href="styleetc.css">
+    </head>
+    <body>
+        <center><article id="Cats">
+            <button class="button buttonhome">
+                <a href="index.html"><h2>Home</h2></a>
+            </button>
+            <button class="button buttonbio">
+                <a href="bio.html"><h2>Bio</h2></a>
+            </button>
+            <button class="button buttonprojects">
+                <a href="projects.html"><h2>Current Projects</h2></a>
+            </button>
+            <button class="button buttonsocials">
+                <a href="socials.html"><h2>Socials</h2></a>
+            </button>
+            <button class="button buttonetc">
+                <a href="etc.html"><h2>Etcetera</h2></a>
+            </button>
+   
+        </article></center>
+        <article id="siteinfo">
+            <br><br><br><br><br><br>
+            <ul id="output"></ul>
+        </article>
+        <script>
+                // JavaScript code
+            for (let i = 1; i <= 10000; i++) { // Loop from 1 to 10
+                let message;
+                
+                // Define text for each number
+                if (i % 2 === 0) {
+                    message = `Hi Jocke :3`;
+                } else {
+                    message = `Hi Jocke :3`;
+                }
+
+                // Print to the page
+                const output = document.getElementById('output');
+                const listItem = document.createElement('li');
+                listItem.textContent = message;
+                output.appendChild(listItem);
+            }
+        </script>
+    </body>
+    
+</html>
